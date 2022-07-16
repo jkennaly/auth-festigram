@@ -25,7 +25,7 @@ const clean = () => {
 }
 
 const userIdFromToken = apiUrl => async (authResult) => {
-    const localId = JSON.parse(localStorage.getItem("ft_user_id"))
+    const localId = parseInt(localStorage.getItem("ft_user_id"), 10)
     if (localId) return localId
     try {
         const timeout = 1000

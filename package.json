@@ -4,7 +4,7 @@
   "description": "browser jwt authentication for festigram api",
   "main": "index.js",
   "scripts": {
-    "test": "npx vitest --coverage"
+    "test": "npx vitest --run"
   },
   "keywords": [
     "authorization",
